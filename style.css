@@ -1,0 +1,15 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: none;
+  font-style: none;
+}
+:root{
+  --background-color: white;
+  --second-background-color: yellow;
+  --third-background-color: brown; 
+}
+nav{
+  position: fixed;
+  display: flex;
+}
