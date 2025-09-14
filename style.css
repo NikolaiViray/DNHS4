@@ -100,15 +100,15 @@ nav .link:hover{
 }
 #about-us .collage{
   display: grid;
-  max-width: 400px;
-  grid-template-columns: repeat(2, 150px);
-  grid-template-rows: repeat(2, 150px);
+  max-width: 500px;
+  grid-template-columns: repeat(2, 250px);
+  grid-template-rows: repeat(2, 250px);
   gap: 1px 1px;
 }
 #about-us .collage img{
   height: 100%;
-  max-width: 150px;
-  max-height: 400px;
+  max-width: 250px;
+  max-height: 500px;
   object-fit: cover;
 }
 #box-1{
