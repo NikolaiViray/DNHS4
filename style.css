@@ -6,6 +6,7 @@
   list-style: none;
   font-style: none;
   scroll-behavior: smooth;
+  /* border: 1px solid red; */
 }
 :root{
   --background-color: white;
@@ -79,8 +80,38 @@ nav .link:hover{
 }
 #about-us{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
   padding: 2em 15%;
 }
 #about-us .school-info img{
-  width: 20vw;
+  width: 10vw;
+}
+#about-us .school-info{
+  max-width: 400px;
+  text-align: center;
+}
+#about-us h2{
+  font-size: 2em;
+}
+#about-us p{
+  font-size: 1.5em;
+}
+#about-us .collage{
+  display: grid;
+  max-width: 400px;
+  grid-template-columns: repeat(2, 150px);
+  grid-template-rows: repeat(2, 150px);
+  gap: 1px 1px;
+}
+#about-us .collage img{
+  height: 100%;
+  max-width: 150px;
+  max-height: 400px;
+  object-fit: cover;
+}
+#box-1{
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
