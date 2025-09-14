@@ -190,3 +190,38 @@ nav .link:hover{
 #resource:hover{
   opacity: 1;
 }
+footer{
+  display: flex;
+  width: 100%;
+  max-height: 1000px;
+  background-color: var(--third-background-color);
+  margin-top: 5%;
+  margin-bottom: 10%;
+  padding: 2em 15%;
+  justify-content: center;
+  gap: 3em;
+  alignment-baseline: baseline;
+  align-items: baseline;
+}
+footer img{
+  width: 25px;
+}
+footer ul span p{
+  display: inline;
+}
+footer ul span{
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  color: white;
+}
+footer ul a{
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  transition: 0.2s ease-in-out;
+  color: white;
+}
+footer ul a:hover{
+  color: black;
+}
