@@ -10,7 +10,7 @@
 :root{
   --background-color: white;
   --second-background-color: rgba(255, 255, 0, 0.7);
-  --third-background-color: brown; 
+  --third-background-color: #845e53; 
   --semi-transparent-black: rgba(15, 15, 15, 0.8);
 }
 nav{
@@ -52,4 +52,35 @@ nav .link{
 }
 nav .link:hover{
   font-size: 1.1em;
+}
+.main-img{
+  height: 80vh;
+  width: 100vw;
+  object-fit: cover;
+}
+.mvv-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  padding: 2em 5%;
+  margin-top: -15vh;
+}
+.mvv{
+  text-align: center;
+  background-color: var(--third-background-color);
+  color: white;
+  padding: 1em 1%;
+  border-radius: 15px;
+  max-width: 250px;
+}
+.mvv h3{
+  font-size: 2em;
+}
+#about-us{
+  display: flex;
+  padding: 2em 15%;
+}
+#about-us .school-info img{
+  width: 20vw;
 }
