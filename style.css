@@ -225,3 +225,6 @@ footer ul a{
 footer ul a:hover{
   color: black;
 }
+.expanded-resource{
+  display: none;
+}
