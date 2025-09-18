@@ -84,6 +84,7 @@ nav .link:hover{
   align-items: center;
   gap: 1em;
   padding: 2em 15%;
+  padding-top: 10%;
 }
 #about-us .school-info img{
   width: 10vw;
@@ -190,6 +191,9 @@ nav .link:hover{
 .resource-btn:hover{
   opacity: 1;
 }
+.resource-btn a{
+  color: black;
+}
 footer{
   display: flex;
   width: 100%;
@@ -225,8 +229,43 @@ footer ul a{
 footer ul a:hover{
   color: black;
 }
+.expanded-resource-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 .expanded-resource{
   display: none;
   background-color: #845e53;
-  margin-top: 10%;
+  padding: 2em 5%;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 5%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px;
+  text-align: center;
+}
+.expanded-resource div{
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  gap: 5em;
+  justify-content: center;
+  margin-top: 5%;
+}
+.expanded-resource div ul{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5em;
+  gap: 1em;
+  list-style-type: circle;
+}
+.expanded-resource div ul a{
+  color: var(--background-color);
+  opacity: .7;
+  transition: 0.2s ease-in-out;
+}
+.expanded-resource div ul a:hover{
+  color: black;
+  opacity: 1;
 }
