@@ -269,3 +269,33 @@ footer ul a:hover{
   color: black;
   opacity: 1;
 }
+#nav-menu-btn{
+  display: none;
+  background: none;
+  border: none;
+  color: transparent;
+}
+#nav-menu-btn img{
+  height: 40px;
+  width: 60px;
+}
+
+
+/* ----------------------------MOBILE PHONES---------------------------- */
+@media(max-width: 470px){
+.links{
+  margin: 0;
+  padding: 0;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: -80px;
+  left: 35%;
+  margin-top: 35%;
+}
+#nav-menu-btn{
+  display: block;
+}
+
+}
