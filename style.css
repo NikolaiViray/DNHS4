@@ -293,13 +293,18 @@ footer ul a:hover{
   display: none;
   flex-direction: column;
   align-items: center;
-  position: fixed;
-  top: -80px;
-  left: 35%;
-  margin-top: 35%;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  margin-left: -5%;
+  background-color: var(--second-background-color);
+  padding: 2em 15%;
+  gap: 5em;
+  font-size: 2em;
 }
 #nav-menu-btn{
   display: block;
+  opacity: 1;
 }
 .additional-resources{
   grid-template-columns: repeat(2, 150px);
