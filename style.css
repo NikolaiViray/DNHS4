@@ -173,6 +173,7 @@ nav .link:hover{
   display: grid;
   grid-template-columns: repeat(3, minmax(100px, 200px));
   grid-template-rows: repeat(2, 100px);
+  place-items: center;
   gap: 1em;
   justify-content: center;
   max-width: 900px;
