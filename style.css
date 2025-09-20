@@ -335,7 +335,8 @@ footer ul a:hover{
   max-width: 200px;
 }
 .mvv-container{
-  gap: 0;
+  gap: 1em;
+  flex-direction: column;
 }
 .resource-btn{
   max-width: 90px;
