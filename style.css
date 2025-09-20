@@ -169,7 +169,7 @@ nav .link:hover{
 }
 .additional-resources{
   display: grid;
-  grid-template-columns: repeat(3, 200px);
+  grid-template-columns: repeat(3, minmax(100px, 200px));
   grid-template-rows: repeat(2, 100px);
   gap: 1em;
   justify-content: center;
@@ -180,7 +180,7 @@ nav .link:hover{
   border-radius: 30px;
 }
 .resource-btn{
-  width: 200px;
+  max-width: 200px;
   height: 100px;
   border-radius: 30px;
   opacity: 0.7;
@@ -283,6 +283,7 @@ footer ul a:hover{
 
 /* ----------------------------MOBILE PHONES---------------------------- */
 @media(max-width: 470px){
+
 .links{
   margin: 0;
   padding: 0;
@@ -296,6 +297,10 @@ footer ul a:hover{
 }
 #nav-menu-btn{
   display: block;
+}
+.additional-resources{
+  max-width: 400px;
+  font-size: 0.6em;
 }
 
 }
