@@ -326,6 +326,13 @@ footer ul a:hover{
   width: 100%;
   padding: 2em 5%;
 }
+#about-us .school-info{
+  font-size: 0.8em;
+  margin-bottom: 10%;
+}
+#about-us .school-info img{
+  width: 100px;
+}
 #about-us .collage{
   grid-template-columns: repeat(2, minmax(30px, 200px));
   grid-template-rows: repeat(2, minmax(30px, 200px));
