@@ -85,6 +85,7 @@ nav .link:hover{
   gap: 1em;
   padding: 2em 15%;
   padding-top: 10%;
+  width: 100vw;
 }
 #about-us .school-info img{
   width: 10vw;
@@ -120,6 +121,7 @@ nav .link:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100vw;
 }
 .three-question-container{
   display: flex;
@@ -196,7 +198,7 @@ nav .link:hover{
 }
 footer{
   display: flex;
-  width: 100%;
+  width: 100vw;
   max-height: 1000px;
   background-color: var(--third-background-color);
   margin-top: 5%;
@@ -281,7 +283,7 @@ footer ul a:hover{
 }
 
 
-/* ----------------------------MOBILE PHONES---------------------------- */
+/* --------------------------------------------------------MOBILE PHONES-------------------------------------------------------- */
 @media(max-width: 470px){
 
 .links{
@@ -299,8 +301,43 @@ footer ul a:hover{
   display: block;
 }
 .additional-resources{
-  max-width: 400px;
+  width: 100%;
+  max-width: 380px;
   font-size: 0.6em;
+  padding: 3% 1%;
+}
+.question-img{
+  flex-direction: column;
+  max-width: 400px;
+}
+.question{
+  margin: 0;
+  margin-bottom: 3%;
+  text-align: center;
+}
+.reverse-question-img .question{
+  margin: 0;
+  margin-bottom: 3%;
+  text-align: center;
+}
+#about-us{
+  flex-direction: column;
+  width: 100%;
+  padding: 2em 5%;
+}
+#about-us .collage{
+  grid-template-columns: repeat(2, minmax(30px, 200px));
+  grid-template-rows: repeat(2, minmax(30px, 200px));
+}
+#about-us .collage img{
+  width: 100%;
+  max-width: 200px;
+}
+.mvv-container{
+  gap: 0;
+}
+.resource-btn{
+  max-width: 90px;
 }
 
 }
