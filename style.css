@@ -286,6 +286,18 @@ footer ul a:hover{
 /* --------------------------------------------------------LAPTOPS-------------------------------------------------------- */
 @media(max-width: 1440px){
 
+  #home{
+    width: 100%;
+  }
+  #about-us{
+    width: 100%;
+  }
+  #more{
+    width: 100%;
+  }
+  #contact{
+    width: 100%;
+  }
   footer ul{
     font-size: clamp(12px, 3vw, 30px);
   }
