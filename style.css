@@ -336,6 +336,18 @@ footer ul a:hover{
   footer ul span p{
     font-size: clamp(5px, 3vw, 30px);
   }
+  .mvv-container{
+    flex-direction: column;
+  }
+  .mvv{
+    max-width: 500px;
+  }
+  .mvv h3{
+    font-size: clamp(14px, 6vw, 40px);
+  }
+  .mvv p{
+    font-size: clamp(14px, 5vw, 30px);
+  }
 }
 
 /* --------------------------------------------------------MOBILE PHONES-------------------------------------------------------- */
