@@ -306,6 +306,13 @@ footer ul a:hover{
   .question p{
     font-size: clamp(14px, 2vw, 48px);
   }
+  .additional-resources{
+    width: 90%;
+  }
+  .resource-btn{
+    width: clamp(120px, 20vw, 500px);
+    font-size: clamp(12px, 3vw, 25px);
+  }
 }
 
 /* --------------------------------------------------------MOBILE PHONES-------------------------------------------------------- */
