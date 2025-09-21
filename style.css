@@ -301,7 +301,7 @@ footer ul a:hover{
   background-color: var(--second-background-color);
   padding: 2em 15%;
   gap: 5em;
-  font-size: 2em;
+  font-size: 1em;
 }
 #nav-menu-btn{
   display: block;
