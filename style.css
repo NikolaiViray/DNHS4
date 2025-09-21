@@ -215,6 +215,7 @@ footer img{
 }
 footer ul span p{
   display: inline;
+  font-size: clamp(12px, 4vw, 48px);
 }
 footer ul span{
   display: flex;
