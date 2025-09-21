@@ -309,6 +309,14 @@ footer ul a:hover{
   .additional-resources{
     width: 90%;
   }
+  .expanded-resource{
+    font-size: clamp(12px, 3vw, 20px);
+    width: 90%;
+  }
+
+  .expanded-resource div ul{
+    font-size: clamp(14px, 4vw, 30px);
+  }
   .resource-btn{
     width: clamp(120px, 20vw, 500px);
     font-size: clamp(12px, 3vw, 25px);
