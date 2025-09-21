@@ -73,10 +73,13 @@ nav .link:hover{
   color: white;
   padding: 1em 1%;
   border-radius: 15px;
-  max-width: 250px;
+  max-width: 500px;
 }
 .mvv h3{
-  font-size: 2em;
+  font-size: clamp(20px, 3vw, 200px);
+}
+.mvv p{
+  font-size: clamp(20px, 2vw, 50px);
 }
 #about-us{
   display: flex;
@@ -91,18 +94,18 @@ nav .link:hover{
   width: 10vw;
 }
 #about-us .school-info{
-  max-width: 400px;
+  max-width: 600px;
   text-align: center;
 }
 #about-us h2{
-  font-size: 2em;
+  font-size: clamp(20px, 3vw, 40px);
 }
 #about-us p{
-  font-size: 1.5em;
+  font-size: clamp(20px, 2vw, 35px);
 }
 #about-us .collage{
   display: grid;
-  max-width: 500px;
+  max-width: 600px;
   grid-template-columns: repeat(2, 250px);
   grid-template-rows: repeat(2, 250px);
   gap: 1px 1px;
@@ -132,7 +135,7 @@ nav .link:hover{
 }
 .question-img{
   display: flex;
-  max-width: 600px;
+  max-width: 1100px;
 }
 .question-img img{
   box-shadow: 1px 1px 15px;
@@ -159,7 +162,10 @@ nav .link:hover{
   z-index: -1000;
 }
 .question h3{
-  font-size: 2em;
+  font-size: clamp(20px, 2vw, 200px);
+}
+.question p{
+  font-size: clamp(20px, 1.2vw, 200px);
 }
 .question-img img{
   margin-top: -2vh;
@@ -168,10 +174,11 @@ nav .link:hover{
 }
 #additional-resources-h1{
   margin-top: 10%;
+  font-size: clamp(20px, 3vw, 200px);
 }
 .additional-resources{
   display: grid;
-  grid-template-columns: repeat(3, minmax(100px, 200px));
+  grid-template-columns: repeat(3, minmax(100px, 500px));
   grid-template-rows: repeat(2, 100px);
   place-items: center;
   gap: 1em;
@@ -183,7 +190,8 @@ nav .link:hover{
   border-radius: 30px;
 }
 .resource-btn{
-  width: 200px;
+  width: 100%;
+  max-width: 500px;
   height: 100px;
   border-radius: 30px;
   opacity: 0.7;
@@ -215,7 +223,7 @@ footer img{
 }
 footer ul span p{
   display: inline;
-  font-size: clamp(12px, 4vw, 48px);
+  font-size: clamp(20px, 1vw, 200px);
 }
 footer ul span{
   display: flex;
@@ -229,6 +237,7 @@ footer ul a{
   gap: 0.5em;
   transition: 0.2s ease-in-out;
   color: white;
+  font-size: clamp(20px, 1vw, 200px);
 }
 footer ul a:hover{
   color: black;
@@ -243,7 +252,7 @@ footer ul a:hover{
   background-color: #845e53;
   padding: 2em 5%;
   width: 100%;
-  max-width: 800px;
+  max-width: 900px;
   margin-top: 5%;
   border-radius: 15px;
   box-shadow: 0px 0px 15px;
@@ -260,7 +269,7 @@ footer ul a:hover{
 .expanded-resource div ul{
   display: flex;
   flex-direction: column;
-  font-size: clamp(12px, 5vw, 48px);
+  font-size: clamp(12px, 1.5vw, 48px);
   gap: 1em;
   list-style-type: circle;
 }
