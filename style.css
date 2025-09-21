@@ -331,10 +331,10 @@ footer ul a:hover{
     max-width: clamp(150px, 36vw, 250px);
   }
   footer ul{
-    font-size: clamp(12px, 3vw, 30px);
+    font-size: clamp(12px, 3vw, 20px);
   }
   footer ul span p{
-    font-size: clamp(5px, 3vw, 30px);
+    font-size: clamp(10px, 3vw, 20px);
   }
   .mvv-container{
     flex-direction: column;
