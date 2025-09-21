@@ -289,6 +289,23 @@ footer ul a:hover{
   #about-us{
     flex-direction: column;
   }
+  .question-img{
+    flex-direction: column;
+    width: 90%;
+  }
+  .question{
+    margin: 0;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+  .reverse-question-img .question{
+    margin: 0;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+  .question p{
+    font-size: clamp(14px, 2vw, 48px);
+  }
 }
 
 /* --------------------------------------------------------MOBILE PHONES-------------------------------------------------------- */
