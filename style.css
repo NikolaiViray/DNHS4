@@ -283,6 +283,42 @@ footer ul a:hover{
   height: 40px;
   width: 60px;
 }
+/* --------------------------------------------------------LAPTOPS-------------------------------------------------------- */
+@media(max-width: 1440px){
+
+  footer ul{
+    font-size: clamp(12px, 3vw, 30px);
+  }
+  footer ul span p{
+    font-size: clamp(12px, 3vw, 30px);
+  }
+  .expanded-resource div ul{
+    font-size: clamp(12px, 3vw, 30px);
+  }
+  .three-question-container{
+    max-width: 70%;
+  }
+  .question-img{
+    max-width: 1000px;
+  }
+  .question-img .question p{
+    font-size: clamp(12px, 1.5vw, 30px);
+    opacity: 0.9;
+  }
+  .question-img .question h3{
+    font-size: clamp(12px, 3vw, 30px);
+  }
+  .mvv{
+    max-width: 500px;
+  }
+  .mvv p{
+    font-size: clamp(12px, 2vw, 30px);
+  }
+  .mvv h3{
+    font-size: clamp(12px, 3vw, 70px);
+  }
+
+}
 
 /* --------------------------------------------------------TABLETS-------------------------------------------------------- */
 @media(max-width: 1024px){
