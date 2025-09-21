@@ -289,6 +289,9 @@ footer ul a:hover{
   #about-us{
     flex-direction: column;
   }
+  #about-us .school-info img{
+    width: 140px;
+  }
   .question-img{
     flex-direction: column;
     width: 90%;
@@ -313,7 +316,6 @@ footer ul a:hover{
     font-size: clamp(12px, 3vw, 20px);
     width: 90%;
   }
-
   .expanded-resource div ul{
     font-size: clamp(14px, 4vw, 30px);
   }
@@ -327,6 +329,12 @@ footer ul a:hover{
   }
   #about-us .collage img{
     max-width: clamp(150px, 36vw, 250px);
+  }
+  footer ul{
+    font-size: clamp(12px, 3vw, 30px);
+  }
+  footer ul span p{
+    font-size: clamp(5px, 3vw, 30px);
   }
 }
 
