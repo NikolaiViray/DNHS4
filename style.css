@@ -313,6 +313,13 @@ footer ul a:hover{
     width: clamp(120px, 20vw, 500px);
     font-size: clamp(12px, 3vw, 25px);
   }
+  #about-us .collage{
+    grid-template-columns: repeat(2, minmax(170px, 250px));
+    grid-template-rows: repeat(2, minmax(100px, 250px));
+  }
+  #about-us .collage img{
+    max-width: clamp(150px, 36vw, 250px);
+  }
 }
 
 /* --------------------------------------------------------MOBILE PHONES-------------------------------------------------------- */
