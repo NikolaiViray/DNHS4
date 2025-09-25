@@ -1,3 +1,23 @@
+:root{
+  --darker-blue: #04093f;
+  --lighter-blu: #3533cd;
+  --background: #242424;
+}
+nav{
+  background-image: linear-gradient(to right, rgba(4, 9, 63, 0.9), rgba(53, 51, 205, 0.9));
+}
+nav .links a{
+  color: white;
+}
+nav .logo{
+  color: white;
+}
+#home .main-img{
+    filter: blur(2px);
+}
+#home .mvv-container{
+  z-index: 10000;
+}
 .officers-members-header{
   margin-top: 7%;
   font-size: clamp(12px, 10vw, 48px);
