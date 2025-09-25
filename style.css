@@ -223,7 +223,7 @@ footer img{
 }
 footer ul span p{
   display: inline;
-  font-size: clamp(20px, 1vw, 200px);
+  font-size: clamp(20px, 1vw, 48px);
 }
 footer ul span{
   display: flex;
@@ -311,7 +311,7 @@ footer ul a:hover{
     font-size: clamp(12px, 3vw, 30px);
   }
   footer ul span p{
-    font-size: clamp(12px, 3vw, 30px);
+    font-size: clamp(12px, 3vw, 20px);
   }
   .expanded-resource div ul{
     font-size: clamp(12px, 3vw, 30px);
