@@ -237,7 +237,6 @@ footer ul a{
   gap: 0.5em;
   transition: 0.2s ease-in-out;
   color: white;
-  font-size: clamp(20px, 1vw, 200px);
 }
 footer ul a:hover{
   color: black;
@@ -308,7 +307,7 @@ footer ul a:hover{
     width: 100%;
   }
   footer ul{
-    font-size: clamp(12px, 3vw, 30px);
+    font-size: clamp(12px, 3vw, 20px);
   }
   footer ul span p{
     font-size: clamp(12px, 3vw, 20px);
